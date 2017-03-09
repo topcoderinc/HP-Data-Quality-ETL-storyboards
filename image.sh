@@ -1,19 +1,5 @@
 #!/bin/sh
-#==============================================================================
-#lh_img_gallery - Linux Html Image Gallery Creator
-#==============================================================================
-#Usage:
-#1.GUI: Open Rox file manager,  rightclick on a directory with images, select
-#  [Open With] and then select [lh_img_gallery] to generate the image gallery
-#  and open it with your browser.
-#2.CLI: You can also open a rxvt terminal and type
-#  /root/my-applications/lh_img_gallery/lh_img_gallery your-image-directory-with-full-path
-#  to run and view the gallery.
-#  eg. /root/my-applications/lh_img_gallery/lh_img_gallery /mnt/sda1/TRAV/tmpcd/CMisc
-#==============================================================================
-#Jerome Christopher
-#www.sqlhtm.com
-#==============================================================================
+
 dir=$1
 cd "$dir"
 outfile=index.html
